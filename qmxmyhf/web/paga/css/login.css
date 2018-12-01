@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #eee;
+}
+.log {
+	width: 600px;
+	height: 300px;
+	background-color: #fff;
+	margin: 200px auto;
+	box-shadow: 5px 5px 8px black;
+	border-radius: 15px;
+}
+/* 左 */
+.left {
+	width: 300px;
+	height: 100%;
+	background-color: #89d;
+	border-radius: 15px 0 0 15px;
+	float: left;
+	text-align: center;
+}
+.left h1 {
+	padding-top: 50px;
+	font-family: "黑体";
+	color: #fff;
+}
+.left span {
+	display: block;
+	font-family: '宋体';
+	font-size: 20px;
+	font-weight: 700;
+}
+
+
+/* 右 */
+.right {
+	padding-top: 20px;
+	width: 300px;
+	float: right;
+	text-align: center;
+}
+.right h1 {
+	font-family: "黑体";
+	color: #000;
+}
+.right .btn {
+	width: 50px;
+	height: 25px;
+	border: none;
+	color: #fff;
+	font-size: 13px;
+	background-color: rgb(136, 156, 235);
+	box-shadow: 2px 2px 5px #000;
+	border-radius: 5px;
+	margin: 5px 15px;
+}
+.btn {
+	float: left;
+}
+
+.log .right .bt1 {
+	margin-left: 100px
+}
+.bt2 {
+	display: inline-block;
+	text-decoration: none;
+	line-height: 25px;
+	text-align: center;
+}
