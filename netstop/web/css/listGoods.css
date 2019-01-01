@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+*{ margin:0; padding:0; }
+body{ background-color:#FFF;}
+ul{list-style-type:none;}
+
+#wrap{ width:1024px; margin:0 auto; margin-top:50px;}
+#left{ width:210px; float:left; border:#DDD 1px solid; min-height:650px; }
+#main{ width:800px; float:left; border:#DDD 1px solid; margin-left:10px;
+		min-height:650px; padding-top:20px; padding-bottom:20px;}
+#main li{ width:220px; float:left; margin-left:20px; margin-right:20px;
+		margin-bottom:30px; padding-bottom:20px; border:#FFF 1px solid; }
+#main li:hover{ border-color:#EEE; }
+#main li a{ color:#666; text-decoration:none;}
+#main li a:hover{ color:#F00;}
+#main li div.price{ height:35px; line-height:35px; color:#F00; font-size:20px;}
+#main li div.title{ width:100%; overflow:hidden; height:25px; line-height:25px;
+					color:#666; white-space:nowrap; }
+
+

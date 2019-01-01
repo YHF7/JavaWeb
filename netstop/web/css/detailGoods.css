@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+*{ margin:0; padding:0; font:"宋体" 12px;}
+#wrap{ width:1024px; background-color:#EEE; overflow:auto; margin:20px auto; }
+#wrap div.photo { float:left; width:300px; margin:20px; background-color:#A00;}
+#wrap div.text{ float:left; width:650px;; padding:10px; margin:20px 14px 20px 0;
+			line-height:25px; background-color:#FFF; }
+#wrap div.text .price{ color:#F00; }
+ul{ list-style-type:none;  overflow:hidden;}	/* overflow:hidden; 消除子标签浮动影响 */
+ul.buy>li{ float:left; }
+ul.buy>li.buyNum>input{ width:40px; height:40px; padding:9px 5px; text-align:center;
+						border:1px solid #DDD; }
+ul.buy>li>ul>li{ width:20px; height:20px;}
+ul.buy>li>ul>li>a{ display:block; width:19px; height:19px; line-height:19px;
+			border-top:1px solid #DDD; border-right:1px solid #DDD; background-color:#EEE;
+			 text-align:center; color:#666; text-decoration:none;}
+ul.buy>li>ul>li.sub>a{ height:18px; line-height:18px; border-bottom:1px solid #DDD; }
+ul.buy>li.addCart{ margin-left:20px; }
+ul.buy>li.addCart>input{ height:40px; border:0; background-color:#F00; color:#FFF;
+				font-weight:bold; padding:9px 15px; cursor:pointer; }
+
+
+

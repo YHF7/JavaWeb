@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+*{ margin:0; padding:0; font:12px Arial, Helvetica, sans-serif;}
+body{ background-color:#EEE;}
+ul{list-style-type:none;}
+
+#banner{ width:100%; background-color:#DDD;}
+#banner .menu{ width:814px; padding-left:210px; height:25px; line-height:25px;
+			margin:0 auto; color:#666; text-align:right;}
+
+#logo{ width:814px; position:relative; margin:0 auto; padding-left:210px; background-color:#F00; }
+#logo h1{ position:absolute; width:210px; height:190px; left:0; top:-25px;
+		background:url(../pics/logov3.jpg) no-repeat 10px 10px; background-color:#FFF;}
+#logo .search{ width:100%; height:165px; background-color:#9F3; position:relative;}
+#logo .search h2{ width:100%; position:absolute; bottom:8px; left:15px; font-size:18px; font-weight:bold;}
+
+#main{ width:1024px; padding-bottom:10px; margin:0 auto;}
+#main .left{ width:210px; padding-top:16px; padding-bottom:15px;
+			background-color:#666; float:left; position:relative;}
+#main>.left>ul{ width:100%;}
+#main>.left>ul>li{ width:190px; height:20px; padding-top:8px; padding-left:10px;
+				padding-right:10px; color:#FFF; }
+#main>.left>ul>li>div{ font-size:14px;}
+#main>.left>ul>li:hover{ background-color:#CCC; }
+#main>.left>ul>li>ul{ width:580px; min-height:449px; padding:15px; background-color:#FFF;
+				position:absolute; top:0; left:210px;}
+#main>.left>ul>li>ul>li{ color:#000; overflow:hidden; padding-bottom:10px;}
+#main>.left>ul>li>ul>li a{ text-decoration:none; color:#666; }
+#main>.left>ul>li>ul>li a:hover{ color:#F00;}
+#main>.left>ul>li>ul>li>h1{ float:left; width:70px; padding-right:10px; text-align:right;
+					font-family:"黑体"; font-weight:bold; line-height:25px;  }
+#main>.left>ul>li>ul>li>div{ float:left; width:500px; text-align:left;
+							border-bottom:1px solid #DDD; line-height:25px;}
+.hidden{ display:none;}
+
+#main div.middle{ float:left; width:590px; margin-left:10px; margin-right:10px;
+					background-color:#FF9; overflow:hidden; }
+#main div.middle div { float:left; width:290px; margin-top:10px; overflow:hidden; }
+#main div.middle div.marRight10{ margin-right:10px;}
+
+#main div.right{ float:left; width:204; height:460px; padding-top:20px; background-color:#FFF; }
+#main div.right td,#main div.right input,#main div.right div{ height:25px;lineheight:25px; font-size:14px;}
+
+
